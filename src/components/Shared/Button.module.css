@@ -1,0 +1,40 @@
+.btn {
+  padding: 14px 24px;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 1rem;
+  min-width: 160px;
+  margin-top: 3vh;
+}
+
+.primary {
+  background-color: var(--white);
+  color: var(--bg-black);
+}
+
+.secondary {
+  background-color: var(--bg-input);
+  color: var(--white);
+}
+
+.danger {
+  background-color: var(--accent-red);
+  color: var(--white);
+}
+
+.full {
+  width: 100%;
+}
+
+.btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  filter: grayscale(0.5);
+}
+
+@media (max-width: 480px) {
+  .btn {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}

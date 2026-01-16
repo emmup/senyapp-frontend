@@ -1,0 +1,51 @@
+/* src/app/globals.css */
+:root {
+  --bg-black: #000000;
+  --bg-dark: #121212;
+  --bg-card: #1a1a1a;
+  --bg-input: #262626;
+  --text-main: #ffffff;
+  --text-muted: #a0a0a0;
+  --accent-blue: #0095f6;
+  --accent-red: #ff3b30;
+  --white: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bg-black);
+  color: var(--text-main);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  font-family: inherit;
+  transition: opacity 0.2s ease;
+}
+
+button:active {
+  opacity: 0.8;
+}
+
+input {
+  outline: none;
+  font-family: inherit;
+}
+
+.no-spin::-webkit-inner-spin-button,
+.no-spin::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.no-spin {
+  -moz-appearance: textfield;
+}
