@@ -3,7 +3,7 @@
 import { useEffect, useState } from 'react';
 import { io, Socket } from 'socket.io-client';
 
-const SOCKET_URL = process.env.NEXT_PUBLIC_SOCKET_URL || 'https://bloody-arliene-nulles-02d4a4e7.koyeb.app/';
+const SOCKET_URL = process.env.NEXT_PUBLIC_SOCKET_URL || 'https://backend--rozh00.replit.app/';
 
 export const useSocket = () => {
   // Lazy initialization
@@ -34,3 +34,4 @@ export const useSocket = () => {
 
   return { socket, isConnected };
 };
+
